@@ -1,6 +1,6 @@
 
 
-export default function Footer() {
+export default function Footer(props) {
 
     return (
         
@@ -9,11 +9,11 @@ export default function Footer() {
             <div className="container-fluid">
                 <div className="container">
                     <div className="footer-info">
-                        <h2>Kate Winslet</h2>
-                        <h3>123 Street, New York, USA</h3>
+                        <h2>{props.data.text001}</h2>
+                        <h3>{props.data.text002}</h3>
                         <div className="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
+                            <p>{props.data.text003}</p>
+                            <p>{props.data.text004}</p>
                         </div>
                         <div className="footer-social">
                             <a href=""><i className="fab fa-twitter"></i></a>
@@ -25,7 +25,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="container copyright">
-                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>&copy; <a href="#">{props.data.text005}</a>{props.data.text006} <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>

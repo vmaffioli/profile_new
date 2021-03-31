@@ -1,21 +1,21 @@
 
 
-export default function Portfolio() {
+export default function Portfolio(props) {
 
     return (
         <div className="portfolio" id="portfolio">
         <div className="container">
             <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                <p>My Portfolio</p>
-                <h2>My Excellent Portfolio</h2>
+                <p>{props.data.text001}</p>
+                <h2>{props.data.title001}</h2>
             </div>
             <div className="row">
                 <div className="col-12">
                     <ul id="portfolio-filter">
-                        <li data-filter="*" className="filter-active">All</li>
-                        <li data-filter=".filter-1">Web Design</li>
-                        <li data-filter=".filter-2">Mobile Apps</li>
-                        <li data-filter=".filter-3">Game Dev</li>
+                        <li data-filter="*" className="filter-active">{props.data.text002}</li>
+                        <li data-filter=".filter-1">{props.data.text003}</li>
+                        <li data-filter=".filter-2">{props.data.text004}</li>
+                        <li data-filter=".filter-3">{props.data.text005}</li>
                     </ul>
                 </div>
             </div>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-1.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>eCommerce Website</h3>
+                            <h3>{props.data.title002}</h3>
                             <a className="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-2.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>Product Landing Page</h3>
+                            <h3>{props.data.title003}</h3>
                             <a className="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-3.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>JavaScript quiz game</h3>
+                            <h3>{props.data.title004}</h3>
                             <a className="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-4.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>JavaScript drawing</h3>
+                            <h3>{props.data.title005}</h3>
                             <a className="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-5.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>Social Mobile Apps</h3>
+                            <h3>{props.data.title006}</h3>
                             <a className="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function Portfolio() {
                             <img src="img/portfolio-6.jpg" alt="Image"/>
                         </div>
                         <div className="portfolio-text">
-                            <h3>Company Website</h3>
+                            <h3>{props.data.title007}</h3>
                             <a className="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
                         </div>
                     </div>

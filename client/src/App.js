@@ -18,9 +18,10 @@ export default function App() {
     return (
         <>
             <Header data={Data.Header}/>
-            <Banner data={Data.Banner}/>
+            <Banner data={Data.Construction}/>
+            {/*<Banner data={Data.Banner}/>*/}
 
-            {/* 
+            {/*            
             <About data={Data.About}/>
             <Services data={Data.Services}/>
             <Portfolio data={Data.Portfolio}/>
@@ -29,7 +30,8 @@ export default function App() {
             <Footer data={Data.Footer}/>
             <HelmetContainer />
             <Loader />
-            */}
+            */}  
+           
         </>
 
     )

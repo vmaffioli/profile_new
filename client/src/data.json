@@ -1,6 +1,6 @@
 {
     "Header": {
-        "title001":"VMaffioli",
+        "title001":"title001",
         "nav_item001": "Home",
         "nav_item002": "About",
         "nav_item003": "Services",
@@ -9,21 +9,99 @@
         "nav_item006": "Blog"
     },
     "Banner": {
+        "title001": "title001",
+        "text001": "text001",
+        "text002": "text002_1, text002_2, text002_2",
+        "text003": "text003",
+        "text004": "text004",
+        "img001": "img001"
+
+    },
+    "Construction": {
         "title001": "This Page is under construction!",
         "text001": "I'm sorry",
         "text002": "This page is under construction, This page is under construction, This page is under construction",
         "text003": " ",
         "text004": " ",
         "img001": "https://media.giphy.com/media/QuIbkMlHq3wipDE0fj/giphy.gif",
-
         "text002_original": "Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer",
         "text003_original": "Hire me",
         "text004_original": "Contact Me"
     },
-    "About": {},
-    "Services": {},
-    "Portfolio": {},
-    "Experience": {},
+    "About": {
+        "text001": "text001",
+        "title001": "title001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005",
+        "text006": "text006",
+        "text007": "text007",
+        "text008": "text008"
+    },
+    "Services": {
+        "title001": "title001",
+        "title002": "title002",
+        "title003": "title003",
+        "title004": "title004",
+        "title005": "title005",
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005"    
+    
+    },
+    "Portfolio": {
+        "title001": "title001",
+        "title002": "title002",
+        "title003": "title003",
+        "title004": "title004",
+        "title005": "title005",
+        "title006": "title006",
+        "title007": "title007",
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005"  
+    },
+    "Experience": {
+        "title001": "title001",
+        "title002": "title002",
+        "title003": "title003",
+        "title004": "title004",
+        "title005": "title005",
+        "title006": "title006",
+        "title007": "title007",
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005",
+        "text006": "text006",
+        "text007": "text007",
+        "text008": "text008",
+        "text009": "text009",
+        "text010": "text010",
+        "text011": "text011",
+        "text012": "text012",
+        "text013": "text013",
+        "text014": "text014",
+        "text015": "text015",
+        "text016": "text016",
+        "text017": "text017",
+        "text018": "text018",
+        "text019": "text019"
+        
+        },
     "Blog": {},
-    "Footer": {}
+    "Footer": {
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005",
+        "text006": "text006"
+    }
 }

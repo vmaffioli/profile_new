@@ -1,13 +1,13 @@
 
 
-export default function Services() {
+export default function Services(props) {
 
     return (
         <div className="service" id="service">
             <div className="container">
                 <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What I do</p>
-                    <h2>Awesome Quality Services</h2>
+                    <p>{props.data.text001}</p>
+                    <h2>{props.data.title001}</h2>
                 </div>
                 <div className="row">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
@@ -16,10 +16,10 @@ export default function Services() {
                                 <i className="fa fa-laptop"></i>
                             </div>
                             <div className="service-text">
-                                <h3>Web Design</h3>
+                                <h3>{props.data.title002}</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                            </p>
+                                    {props.data.text002}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -29,10 +29,10 @@ export default function Services() {
                                 <i className="fa fa-laptop-code"></i>
                             </div>
                             <div className="service-text">
-                                <h3>Web Development</h3>
+                                <h3>{props.data.title003}</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                            </p>
+                                    {props.data.text003}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -42,10 +42,10 @@ export default function Services() {
                                 <i className="fab fa-android"></i>
                             </div>
                             <div className="service-text">
-                                <h3>Apps Design</h3>
+                                <h3>{props.data.title004}</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                            </p>
+                                    {props.data.text004}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -55,10 +55,10 @@ export default function Services() {
                                 <i className="fab fa-apple"></i>
                             </div>
                             <div className="service-text">
-                                <h3>Apps Development</h3>
+                                <h3>{props.data.title005}</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                            </p>
+                                    {props.data.text005}
+                                </p>
                             </div>
                         </div>
                     </div>
