@@ -1,0 +1,29 @@
+{
+    "Header": {
+        "title001":"VMaffioli",
+        "nav_item001": "Home",
+        "nav_item002": "About",
+        "nav_item003": "Services",
+        "nav_item004": "Portfolio",
+        "nav_item005": "Experiences",
+        "nav_item006": "Blog"
+    },
+    "Banner": {
+        "title001": "This Page is under construction!",
+        "text001": "I'm sorry",
+        "text002": "This page is under construction, This page is under construction, This page is under construction",
+        "text003": " ",
+        "text004": " ",
+        "img001": "https://media.giphy.com/media/QuIbkMlHq3wipDE0fj/giphy.gif",
+
+        "text002_original": "Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer",
+        "text003_original": "Hire me",
+        "text004_original": "Contact Me"
+    },
+    "About": {},
+    "Services": {},
+    "Portfolio": {},
+    "Experience": {},
+    "Blog": {},
+    "Footer": {}
+}
