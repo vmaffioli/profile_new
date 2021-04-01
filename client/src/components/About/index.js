@@ -1,5 +1,4 @@
 
-
 export default function About(props) {
 
     return (
@@ -8,7 +7,7 @@ export default function About(props) {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src="img/about.jpg" alt="Image" />
+                            <img src={props.data.img001} alt="Image" />
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -21,34 +20,17 @@ export default function About(props) {
                                 <p>
                                     {props.data.text002}
                                 </p>
+                                <p>
+                                    {props.data.text003}
+                                </p>
+                                <p>
+                                    {props.data.text004}
+                                </p>
+                                <p>
+                                    {props.data.text005}
+                                </p>
                             </div>
-                            <div className="skills">
-                                <div className="skill-name">
-                                    <p>{props.data.text003}</p><p>85%</p>
-                                </div>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div className="skill-name">
-                                    <p>{props.data.text004}</p><p>95%</p>
-                                </div>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div className="skill-name">
-                                    <p>{props.data.text005}</p><p>90%</p>
-                                </div>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div className="skill-name">
-                                    <p>{props.data.text006}</p><p>85%</p>
-                                </div>
-                                <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <a className="btn" href="">{props.data.text007}</a>
+
                         </div>
                     </div>
                 </div>

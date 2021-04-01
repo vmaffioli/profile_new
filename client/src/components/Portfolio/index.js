@@ -23,11 +23,11 @@ export default function Portfolio(props) {
                 <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                     <div className="portfolio-wrap">
                         <div className="portfolio-img">
-                            <img src="img/portfolio-1.jpg" alt="Image"/>
+                            <img src={props.data.img002} alt="Image"/>
                         </div>
                         <div className="portfolio-text">
                             <h3>{props.data.title002}</h3>
-                            <a className="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                            <a className="btn" href={props.data.url002} >+</a>
                         </div>
                     </div>
                 </div>

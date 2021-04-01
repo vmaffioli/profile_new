@@ -13,12 +13,11 @@ export default function Header(props) {
 
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav ml-auto">
-                            <a href="#home" className="nav-item nav-link active">{props.data.nav_item001}</a>
-                            <a href="#about" className="nav-item nav-link">{props.data.nav_item002}</a>
-                            <a href="#service" className="nav-item nav-link">{props.data.nav_item003}</a>
-                            <a href="#portfolio" className="nav-item nav-link">{props.data.nav_item004}</a>
-                            <a href="#experience" className="nav-item nav-link">{props.data.nav_item005}</a>
-                            <a href="#blog" className="nav-item nav-link">{props.data.nav_item006}</a>
+                            <a href="#home" className="nav-item nav-link active"><b>{props.data.nav_item001}</b></a>
+                            <a href="#about" className="nav-item nav-link"><b>{props.data.nav_item002}</b></a>
+                            <a href="#portfolio" className="nav-item nav-link"><b>{props.data.nav_item003}</b></a>
+                            <a href="#experience" className="nav-item nav-link"><b>{props.data.nav_item004}</b></a>
+                            <a href="#blog" className="nav-item nav-link"><b>{props.data.nav_item005}</b></a>
                         </div>
                     </div>
                 </div>

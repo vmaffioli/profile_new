@@ -1,7 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 
-export default function HelmetContainer() {
+export default function Scripts() {
 
     return (
         <>
@@ -31,4 +31,3 @@ export default function HelmetContainer() {
 
     )
 };
-
