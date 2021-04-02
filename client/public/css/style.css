@@ -1616,3 +1616,12 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+.cvlink {
+    color: rgba(225, 237, 185, 1);
+}
+
+.cvlink:hover {
+    color: rgba(212,238,94, 1);
+    font-size: 25px;
+}

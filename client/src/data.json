@@ -5,12 +5,14 @@
         "nav_item002": "About",
         "nav_item003": "Portfolio",
         "nav_item004": "Experiences",
-        "nav_item005": "Blog"
+        "nav_item005": "Blog",
+        "nav_item006": "Contact"
+
     },
     "Banner": {
         "title001": "Vinícius Maffioli",
         "text001": "Web Developer",
-        "text002": "Improving with praticity and agility to build the best website for you! , Together we can do something great like your idea deserves.",
+        "text002": "Improving with agility, Developing for Passion.",
         "text003": "text003",
         "text004": "text004",
         "img001": "img001",
@@ -81,25 +83,33 @@
         "text001": "Experiences",
         "title001": "My Jobs",
 
-        "title002": "Wipro Limited",
-        "text002": "Java Core Developer",
-        "text003": "text003",
-        "text004": "text014",
+        "title002": "Freelancer",
+        "text002": "Web Development",
+        "text003": "Development of Commercial and Personal websites using Node server and React.js builds. Acctualy i'm working in a Blog and a Landing Page",
+        "text004": "2020/2021",
 
 
         "title003": "BRQ Digital Solutions",
         "text005": "Web Development Intern",
-        "text006": "text006",
-        "text007": "text007"
+        "text006": "Development and Maintenance of applications in the financial area written in Java using the AWB framework (Bradesco Web Architecture / JSF)",
+        "text007": "2019/2020"
         
         },
     "Blog": {},
     "Footer": {
-        "text001": "text001",
-        "text002": "text002",
-        "text003": "text003",
-        "text004": "text004",
-        "text005": "text005",
-        "text006": "text006"
+        "text001": "Vinícius Maffioli",
+        "text002": "Download Curriculum",
+        "text003": "+55 11 96643 5382",
+        "text004": "vmaffioli@gmail.com",
+        "text005": "",
+        "text006": "Personal website with no intention to save, get or distribute anything else than my curriculum and professional data.",
+
+        "cv": "https://drive.google.com/file/d/1zSI-RTxZMn_H11Hkb0tgGfiGSVEMMYqE/view",
+        "linkedin": "https://www.linkedin.com/in/vinicius-maffioli/",
+        "github": "https://github.com/vmaffioli",
+        "npm": "https://www.npmjs.com/~vmaffioli",
+        "hackerrank": "https://www.hackerrank.com/vinimaffioli?hr_r=1",
+        "wakatime": "https://wakatime.com/@vmaffioli"
+    
     }
 }
