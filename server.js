@@ -8,9 +8,9 @@ app.use(express.static(path.join(__dirname, './client/build/')));
 
 
 
-app.get('/games/pikachustrikesback', (req, res) => {
-  res.sendFile(path.join(__dirname, '/misc/pikachustrikesback/index.html'));
-});
+//app.get('/', (req, res) => {
+//  res.sendFile(path.join(__dirname, ''));
+//});
 
 
 
