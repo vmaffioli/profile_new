@@ -15,6 +15,10 @@ My new web profile, using BS Template.
 
 ---
 
+#### HTML Template
+<a href="https://htmlcodex.com/developer-portfolio-template/" target="_blank">HTML CODEX<a>
+---
+
 #### Dependencies
 
     Nodemon,
