@@ -1,20 +1,57 @@
-const express = require('express');
+const app = require('../src/app');
+const http = require('http');
+const debug = require('debug')('nodestr:server');
 const path = require('path');
 
-const app = express();
-const port = process.env.PORT || 5000;
+// PORT // based on express-generator
+function normalizePort(val) {
+  const port = parseInt(val, 10);
+  if (isNaN(port)) {
+    return val;
+  }
+  if (port >= 0) {
+    return port;
+  }
+  return false;
+}
 
-const data = require('./data.json');
-app.use(express.static(path.join(__dirname, './client/build/')));
+const port = normalizePort(process.env.PORT || 5000);
+app.set('port', port);
 
-app.get('/api/content', (req, res) => {
-    res.send(require('./data.json'));
-  });
+// error handler
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+  
+  const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
-//app.get('/', (req, res) => {
-//  res.sendFile(path.join(__dirname, ''));
-//});
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+
+    default:
+      throw error;
+  }
+}
+
+// listener handler
+function onListening() {
+  const addr = server.address();
+  const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
 
 
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+// server
+const server = http.createServer(app);
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+console.log(`API is alive on ${port}!`);
