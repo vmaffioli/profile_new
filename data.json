@@ -1,0 +1,115 @@
+{
+    "header": {
+        "title001":"VMaffioli",
+        "nav_item001": "Home",
+        "nav_item002": "About",
+        "nav_item003": "Portfolio",
+        "nav_item004": "Experiences",
+        "nav_item005": "Blog",
+        "nav_item006": "Contact"
+
+    },
+    "banner": {
+        "title001": "Vinícius Maffioli",
+        "text001": "Web Developer",
+        "text002": "Improving with agility, Developing for Passion.",
+        "text003": "text003",
+        "text004": "text004",
+        "img001": "img001",
+        "vid001": "vid/banner-bg.mp4"
+
+    },
+    "construction": {
+        "title001": "This Page is under construction!",
+        "text001": "I'm sorry",
+        "text002": "This page is under construction, This page is under construction, This page is under construction",
+        "text003": " ",
+        "text004": " ",
+        "img001": "https://media.giphy.com/media/QuIbkMlHq3wipDE0fj/giphy.gif",
+        "text002_original": "Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer",
+        "text003_original": "Hire me",
+        "text004_original": "Contact Me"
+    },
+    "about": {
+        "text001": "About me",
+        "title001": "Who am I?",
+        "text002": "I'm a 27 years old Brazilian Developer, husband of this incredible Woman in the pic and father of a lovely princess!",
+        "text003": "I lives in São Paulo/BR and I'm a very homely person, usually I spend most of my time with my family and coding.",
+        "text004": "Curious, determined and adaptable are my principal characteristics. Coding is more than a job for me, its my hobbie and because of this I'm constantly searching for new knowledges and experiencies.",
+        "text005": "I'm constantly searching for new challenges, to be in a real situation with real problems to solve, that's how I learned to be who I am today.",
+        "img001": "img/about-photo.jpg"
+    },
+    "services": {
+        "title001": "title001",
+        "title002": "title002",
+        "title003": "title003",
+        "title004": "title004",
+        "title005": "title005",
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005"    
+    
+    },
+    "portfolio": {
+        "title001": "My Projects",
+
+        "title002": "Javascript Game",
+        "url002": "https://vmaffioli-pikachustrikesback.herokuapp.com/",
+        "img002": "img/pikachustrikesback.png",
+
+        "title003": "title003",
+        "url003": "text003",
+        "img003": "img/pikachustrikesback.png",
+
+        "title004": "title004",
+        "title005": "title005",
+        "title006": "title006",
+        "title007": "title007",
+        "text001": "Portfolio",
+        
+
+
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005",
+        "url004": "text004",
+        "url005": "text005"
+
+    },
+    "experience": {
+        "text001": "Experiences",
+        "title001": "My Jobs",
+
+        "title002": "Freelancer",
+        "text002": "Web Development",
+        "text003": "Development of Commercial and Personal websites using Node server and React.js builds. Acctualy i'm working in a Blog and a Landing Page",
+        "text004": "2020/2021",
+
+
+        "title003": "BRQ Digital Solutions",
+        "text005": "Web Development Intern",
+        "text006": "Development and Maintenance of applications in the financial area written in Java using the AWB framework (Bradesco Web Architecture / JSF)",
+        "text007": "2019/2020"
+        
+        },
+    "blog": {},
+    "footer": {
+        "text001": "Vinícius Maffioli",
+        "text002": "Download Curriculum",
+        "text003": "+55 11 96643 5382",
+        "text004": "vmaffioli@gmail.com",
+        "text005": "",
+        "text006": "Personal website with no intention to save, get or distribute anything else than my curriculum and professional data.",
+
+        "cv": "https://drive.google.com/file/d/1zSI-RTxZMn_H11Hkb0tgGfiGSVEMMYqE/view",
+        "linkedin": "https://www.linkedin.com/in/vinicius-maffioli/",
+        "github": "https://github.com/vmaffioli",
+        "npm": "https://www.npmjs.com/~vmaffioli",
+        "hackerrank": "https://www.hackerrank.com/vinimaffioli?hr_r=1",
+        "wakatime": "https://wakatime.com/@vmaffioli"
+    
+    }
+}

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import App from './pages/Home/App';
+import Helmet from "./components/HelmetContainer";
+
 import reportWebVitals from './reportWebVitals';
 
 
@@ -14,6 +16,7 @@ ReactDOM.render(
         <Route path="/" component={App} exact />
 
       </Switch>
+      <Helmet />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

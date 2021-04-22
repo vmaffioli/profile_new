@@ -4,7 +4,7 @@ export default function Banner(props) {
     return (
         <>
             <video className='videoTag' autoPlay loop muted>
-                <source src={props.data.vid001} type='video/mp4' />
+                <source src="vid/banner-bg.mp4" type='video/mp4' />
             </video>
             <div className="hero" id="home">
 

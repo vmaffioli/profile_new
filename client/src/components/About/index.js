@@ -2,6 +2,7 @@
 export default function About(props) {
 
     return (
+        
         <div className="about wow fadeInUp" data-wow-delay="0.1s" id="about">
             <div className="container-fluid">
                 <div className="row align-items-center">
