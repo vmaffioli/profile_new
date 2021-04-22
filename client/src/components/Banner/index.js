@@ -18,7 +18,7 @@ export default function Banner(props) {
                                     <p>{props.data.text001}</p>
                                     <h1>{props.data.title001}</h1>
                                     <h2></h2>
-                                    <div className="typed-text">{props.data.text002}</div>
+                                    <div className="typed-text">Improving with agility, Developing for Passion.</div>
                                 </div>
                                 {/*
                         <div className="hero-btn">
