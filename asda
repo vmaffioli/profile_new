@@ -294,7 +294,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(212, 238, 94, 0.7), rgba(255, 66, 66, 0.9));
+    background: rgba(255, 66, 66, 0.85);
 }
 
 .videoTag {
@@ -343,7 +343,7 @@ transform: translate(-50%, -50%)
 }
 
 .hero .hero-text h1 {
-    color: rgba(212,238,94);
+    color: rgba(225, 237, 185, 1);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
