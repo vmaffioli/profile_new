@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     // loader
     var loader = function () {
         setTimeout(function () {

@@ -10,6 +10,13 @@ export default function HelmetContainer() {
 
                 <Helmet>
 
+                    <meta
+                        name="description"
+                        content="Vinícius Maffioli Web Profile! (react.js)"
+                    />
+                    <meta property="og:image" content="%PUBLIC_URL%/thumb.png" />
+
+
                     <body data-spy="scroll" data-target=".navbar" data-offset="51" />
 
                     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -25,15 +32,15 @@ export default function HelmetContainer() {
                     <script src="mail/contact.js"></script>
                     <script src="js/main.js"></script>
 
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
-  <link href="lib/animate/animate.min.css" rel="stylesheet"/>
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+                    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+                    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+                    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+                    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
 
 
-  <link href="css/style.css" rel="stylesheet"/>
+                    <link href="css/style.css" rel="stylesheet" />
 
 
                 </Helmet>

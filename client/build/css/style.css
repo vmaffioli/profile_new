@@ -201,7 +201,7 @@ a:focus {
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
-        color: rgba(255, 66, 66, 1);
+        color: #414141;
         font-size: 20px;
         font-weight: 500;
     }
@@ -214,6 +214,7 @@ a:focus {
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
         color: rgba(225, 237, 185, 1);
+
         padding: 1px 10px 4px 10px;
 
         font-size: 30px;
@@ -228,18 +229,36 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
+
     .navbar {
-        padding: 15px;
-        background: rgba(212,238,94, 1) !important;
+        padding: 10px;
+        background: #222 !important;
+        height: 0px;
+    }
+
+    .rownav {
+        position: absolute;
+        top: 75px;
+        left: 54%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
 
     .navbar.nav-sticky {
         background: rgba(255, 66, 66, 1) !important;
+        height: 100px;
+
+        
     }
 
     .navbar .navbar-brand {
+        position: absolute;
+        top: 27px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
         opacity: 0;
-    }
+       }
 
     .navbar.nav-sticky .navbar-brand {
         color: rgba(225, 237, 185, 1);
@@ -254,8 +273,14 @@ a:focus {
         padding: 5px;
     }
 
+    .navbar-light .navbar-nav .nav-link.active {
+        color: rgba(225, 237, 185, 1);
+        -webkit-text-stroke: 0.5px #414141; /* width and color */
+    }
+
     .navbar .dropdown-menu {
         box-shadow: none;
+        opacity: 0;
     }
 }
 
@@ -269,7 +294,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(212, 238, 94, 0.7), rgba(255, 66, 66, 0.9));
+    background: rgba(255, 66, 66, 0.85);
 }
 
 .videoTag {
@@ -318,7 +343,7 @@ transform: translate(-50%, -50%)
 }
 
 .hero .hero-text h1 {
-    color: rgba(212,238,94, 1);
+    color: rgba(225, 237, 185, 1);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;

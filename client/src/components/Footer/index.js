@@ -12,8 +12,8 @@ export default function Footer(props) {
                             <h2>{props.data.text001}</h2>
                             <h3><a href={props.data.cv} className="cvlink"> {props.data.text002}</a></h3>
                             <div className="footer-menu">
-                                <p>{props.data.text003}</p>
-                                <p>{props.data.text004}</p>
+                                <p>{props.data.text003}<br /><br />
+                                {props.data.text004}</p>
                             </div>
                             <div className="footer-social">
 
