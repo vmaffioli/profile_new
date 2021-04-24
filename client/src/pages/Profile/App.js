@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 
 import Banner from "../../components/Banner";
 import About from "../../components/About";
-import Portfolio from "../../components/Portfolio";
+import BannerMini from "../../components/BannerMini";
 import Experience from "../../components/Experience";
+import Portfolio from "../../components/Portfolio";
+
 //import Blog from "../../components/Blog";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -55,6 +57,7 @@ class App extends Component {
 
         return (
             <>
+
                 <HelmetContainer />
 
                 <Header src={'profile'} data={this.state.header} />
@@ -64,7 +67,10 @@ class App extends Component {
                 <About data={this.state.about} />
                 {/*<Services data={Data.Services}/>*/}
                 <Portfolio data={this.state.portfolio} />
+
                 <Experience data={this.state.experience} />
+
+
                 {/*<Blog data={Data.Blog} />*/}
                 <Footer src={'profile'} data={this.state.footer} />
                 <Loader />

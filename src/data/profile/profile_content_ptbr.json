@@ -1,0 +1,119 @@
+{
+    "Header": {
+        "title001":"VMaffioli",
+        "nav_item001": "Inicio",
+        "nav_item002": "Sobre",
+        "nav_item003": "Portfolio",
+        "nav_item004": "Experiências",
+        "nav_item005": "Blog",
+        "nav_item006": "Contato"
+
+    },
+    "Banner": {
+        "title001": "Vinícius Maffioli",
+        "text001": "Web Developer",
+        "text002": "Improving with agility, Developing for Passion.",
+        "text003": "text003",
+        "text004": "text004",
+        "img001": "img001"
+
+    },
+    "Construction": {
+        "title001": "This Page is under construction!",
+        "text001": "I'm sorry",
+        "text002": "This page is under construction, This page is under construction, This page is under construction",
+        "text003": " ",
+        "text004": " ",
+        "img001": "https://media.giphy.com/media/QuIbkMlHq3wipDE0fj/giphy.gif",
+        "text002_original": "Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer",
+        "text003_original": "Hire me",
+        "text004_original": "Contact Me"
+    },
+    "About": {
+        "text001": "Sobre",
+        "title001": "Quem sou eu",
+        "text002": "Possuo 27 anos, marido dessa Mulher incrível na foto e pai de uma linda Princesa!",
+        "text003": "Moro em São Paulo / BR e sou uma pessoa muito caseira, geralmente passo a maior parte do tempo com minha família e estudando.",
+        "text004": "Curiosidade, determinação e adaptabilidade são minhas principais características. Desenvolver sistemas é mais do que um trabalho para mim, é meu hobbie e por isso estou constantemente em busca de novos conhecimentos e experiências.",
+        "text005": "Não abro mão de uma nova descoberta, desafio ou de inovação. Enquanto eu tiver a capacidade de aprender, quem poderá me limitar? ",
+        "img001": "img/about-photo.jpg"
+    },
+    "Services": {
+        "title001": "title001",
+        "title002": "title002",
+        "title003": "title003",
+        "title004": "title004",
+        "title005": "title005",
+        "text001": "text001",
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005"    
+    
+    },
+    "Portfolio": {
+        "title001": "Meu Projetos",
+
+        "title002": "isA Chatbot Kit",
+        "url002": "/#/isa",
+        "img002": "img/portfolio-isa.png",
+
+        "title003": "em breve ..",
+        "url003": "text003",
+        "img003": "img/pikachustrikesback.png",
+
+        "title004": "em breve ..",
+        "title005": "title005",
+        "title006": "title006",
+        "title007": "title007",
+        "text001": "Portfolio",
+        
+
+
+        "text002": "text002",
+        "text003": "text003",
+        "text004": "text004",
+        "text005": "text005",
+        "url004": "text004",
+        "url005": "text005"
+
+    },
+    "Experience": {
+        "text001": "Experiências",
+        "title001": "Profissionais",
+
+        "title004": "Wipro Limited",
+        "text008": "Analista de Sistemas",
+        "text009": "Desenvolvimento e manutenção de aplicações financeiras utilizando Java, AWB, mySQL (Bradesco Web Architecture / JSF)",
+        "text0010": "2021/Atual",
+
+        "title002": "Freelancer",
+        "text002": "Desenvolvedor Web",
+        "text003": "Desenvolvimento de aplicações comerciais/pessoais como lojas, blogs e sites em geral utilizando MERN Stack ",
+        "text004": "2020/2021",
+
+
+        "title003": "BRQ Digital Solutions",
+        "text005": "Estágio",
+        "text006": "Manutenção de aplicações financeiras e scripts para automatizações de tarefas. (Java, VB6, COBOL e VBScript) ",
+        "text007": "2019/2020"
+        
+        },
+    "Blog": {},
+    "Footer": {
+        "text001": "Vinícius Maffioli",
+        "text002": "Download Currículo",
+        "text003": "+55 11 96643 5382",
+        "text004": "vmaffioli@outlook.com",
+        "text005": "",
+        "text006": "Personal website with no intention to save, get or distribute anything else than my curriculum and professional data.",
+
+        "cv": "../../misc/ViniciusMaffioliCurriculo.pdf",
+        "linkedin": "https://www.linkedin.com/in/vinicius-maffioli/",
+        "github": "https://github.com/vmaffioli",
+        "npm": "https://www.npmjs.com/~vmaffioli",
+        "hackerrank": "https://www.hackerrank.com/vinimaffioli?hr_r=1",
+        "wakatime": "https://wakatime.com/@vmaffioli"
+    
+    }
+}

@@ -10,11 +10,11 @@ import HelmetContainer from "../../components/HelmetContainer";
 
 
 class Isa extends Component {
-    state = {  
+    state = {
         header: {},
         banner: {},
         footer: {}
-      };
+    };
 
     componentDidMount() {
         this.callApi()
@@ -33,16 +33,18 @@ class Isa extends Component {
         return body;
     };
 
+ 
 
 
     render() {
 
         return (
+
             <>
                 <HelmetContainer />
-                <Header src={'isa'} data={this.state.header}/>
-                <Banner src={'isa'} data={this.state.banner}/>
-                <Footer src={'isa'} data={this.state.footer}/>
+                <Header src={'isa'} data={this.state.header} />
+                <Banner src={'isa'} data={this.state.banner} />
+                <Footer src={'isa'} data={this.state.footer} />
                 <Loader />
             </>
 

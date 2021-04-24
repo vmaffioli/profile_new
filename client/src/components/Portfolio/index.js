@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function Portfolio(props) {
@@ -28,7 +29,9 @@ export default function Portfolio(props) {
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title002}</h3>
-                                    <a className="btn" href={props.data.url002} >+</a>
+                                    <Link to='/isa#isa-home' className='btn'>
+                                        +
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -55,46 +58,12 @@ export default function Portfolio(props) {
                             </div>
                         </div>
 
-                        {/*<div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                            <div className="portfolio-wrap">
-                                <div className="portfolio-img">
-                                    <img src="img/portfolio-4.jpg" alt="Image" />
-                                </div>
-                                <div className="portfolio-text">
-                                    <h3>{props.data.title005}</h3>
-                                    <a className="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                            <div className="portfolio-wrap">
-                                <div className="portfolio-img">
-                                    <img src="img/portfolio-5.jpg" alt="Image" />
-                                </div>
-                                <div className="portfolio-text">
-                                    <h3>{props.data.title006}</h3>
-                                    <a className="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                            <div className="portfolio-wrap">
-                                <div className="portfolio-img">
-                                    <img src="img/portfolio-6.jpg" alt="Image" />
-                                </div>
-                                <div className="portfolio-text">
-                                    <h3>{props.data.title007}</h3>
-                                    <a className="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
-                                </div>
-                            </div>
-    </div>*/}
+     
 
                     </div>
                 </div>
             </div>
-            <div className="row">
 
-            </div>
         </>
     )
 };

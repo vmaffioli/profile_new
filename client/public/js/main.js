@@ -2,18 +2,11 @@
     "use strict";
 
     // loader
-    var loader = function () {
-        setTimeout(function () {
-            if ($('#loader').length > 0) {
-                $('#loader').removeClass('show');
-            }
-        }, 1);
-    };
-    loader();
+
     
     
     // Initiate the wowjs
-    new WOW().init();
+    //new WOW().init();
     
     
     // Back to top button
@@ -38,8 +31,7 @@
             $('.navbar').removeClass('nav-sticky');
         }
     });
-    
-    
+        
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {

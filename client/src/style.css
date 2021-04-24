@@ -232,6 +232,8 @@ a:focus {
         height: 0px;
     }
 
+    
+
     .rownav {
         position: absolute;
         top: 75px;
@@ -263,8 +265,14 @@ a:focus {
         margin-top: 15px;
     }
 
-    .navbar a.nav-link {
-        padding: 5px;
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link:focus {
+        padding: 3px;
+        color: #0000;
+        font-size: 15px;
+        font-weight: bolder;
+        font-stretch: extra-condensed;
     }
 
     .navbar-light .navbar-nav .nav-link.active {
@@ -864,6 +872,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
+    min-height: 600px;
 }
 
 .portfolio #portfolio-filter {

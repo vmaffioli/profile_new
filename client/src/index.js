@@ -1,27 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import App from './pages/Profile/App';
 import Isa from './pages/Isa';
-import Helmet from "./components/HelmetContainer";
+import './style.css';
 
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
 
-        <Route path="/" component={App} exact />
-        <Route path="/isa" component={Isa}/>
+  <Router>
+    <Route exact path="/" component={App} />
+    <Route path="/isa" component={Isa} />
+  </Router>,
 
-      </Switch>
-      <Helmet />
-    </BrowserRouter>
-  </React.StrictMode>,
   document.getElementById('root')
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function

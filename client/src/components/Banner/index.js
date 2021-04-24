@@ -44,7 +44,7 @@ export default function Banner(props) {
             <video className='videoTag' autoPlay loop muted>
                 <source src="vid/dictionary-bg.mp4" type='video/mp4' />
             </video>
-            <div className="isa-hero isa-hero-banner">
+            <div className="isa-hero isa-hero-banner" id="isa-home">
                 <div className="container-fluid">
                     <div className="row align-items-center">
 

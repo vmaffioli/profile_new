@@ -13,6 +13,16 @@ export default function Experience(props) {
                 <div className="timeline">
                     <div className="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div className="timeline-text">
+                            <div className="timeline-date">{props.data.text010}</div>
+                            <h2>{props.data.title004}</h2>
+                            <h4>{props.data.text000}</h4>
+                            <p>
+                                {props.data.text009}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div className="timeline-text">
                             <div className="timeline-date">{props.data.text004}</div>
                             <h2>{props.data.title002}</h2>
                             <h4>{props.data.text002}</h4>
@@ -21,7 +31,7 @@ export default function Experience(props) {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div className="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">{props.data.text007}</div>
                             <h2>{props.data.title003}</h2>

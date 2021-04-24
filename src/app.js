@@ -8,7 +8,9 @@ const app = express();
 const indexRoutes = require('./routes/index-routes');
 app.use('/', indexRoutes);
 
-//profile 
-app.use(express.static(path.join(__dirname, '../client/build/')));
+
+//profile .
+app.use('/',express.static(path.join(__dirname, '../client/build/')));
+
 
 module.exports = app;

@@ -1,6 +1,4 @@
-/*******************************/
-/********* General CSS *********/
-/*******************************/
+
 body {
     color: #797979;
     background: #ffffff;
@@ -1364,7 +1362,6 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
     background-size: contain;
 }
 
