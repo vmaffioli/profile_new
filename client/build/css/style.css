@@ -172,7 +172,6 @@ a:focus {
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
-    
 }
 
 @media (min-width: 992px) {
@@ -220,16 +219,15 @@ a:focus {
         font-size: 30px;
 
         -webkit-text-stroke: 0.5px #414141; /* width and color */
-
     }
 
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: rgba(225, 237, 185, 1);    }
+        color: rgba(225, 237, 185, 1);
+    }
 }
 
 @media (max-width: 991.98px) {
-
     .navbar {
         padding: 10px;
         background: #222 !important;
@@ -247,8 +245,6 @@ a:focus {
     .navbar.nav-sticky {
         background: rgba(255, 66, 66, 1) !important;
         height: 100px;
-
-        
     }
 
     .navbar .navbar-brand {
@@ -256,9 +252,9 @@ a:focus {
         top: 27px;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
         opacity: 0;
-       }
+    }
 
     .navbar.nav-sticky .navbar-brand {
         color: rgba(225, 237, 185, 1);
@@ -329,9 +325,8 @@ a:focus {
     justify-content: center;
     flex-direction: column;
     left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%)
-
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero .hero-text p {
@@ -339,11 +334,10 @@ transform: translate(-50%, -50%)
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
-    
 }
 
 .hero .hero-text h1 {
-    color: rgba(212,238,94);
+    color: rgba(212, 238, 94);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -909,6 +903,7 @@ transform: translate(-50%, -50%)
 
 .portfolio .portfolio-item {
     position: relative;
+
 }
 
 .portfolio .portfolio-wrap {
@@ -919,7 +914,8 @@ transform: translate(-50%, -50%)
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
-    
+
+
 }
 
 .portfolio .portfolio-img img {
@@ -929,7 +925,6 @@ transform: translate(-50%, -50%)
     object-fit: cover;
     transform: scale(1.1);
     transition: 0.5s;
-    
 }
 
 .portfolio .portfolio-item:hover img {
@@ -1652,6 +1647,286 @@ transform: translate(-50%, -50%)
 }
 
 .cvlink:hover {
-    color: rgba(212,238,94, 1);
+    color: rgba(212, 238, 94, 1);
     font-size: 25px;
+}
+
+/*******************************/
+/********* isADictionary CSS **********/
+/*******************************/
+
+.isa-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 45px;
+    padding: 120px 0 0 0;
+    overflow: hidden;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(103, 103, 103, 0.5));
+}
+
+.videoTag {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.isa-hero .container-fluid {
+    padding: 0;
+}
+
+.isa-hero .isa-hero-image {
+    position: relative;
+    text-align: right;
+    padding-right: 75px;
+}
+
+.isa-hero .isa-hero-image img {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.isa-hero .isa-hero-text {
+    padding: 20px;
+}
+
+.isa-hero-text p {
+    color: rgba(35, 35, 35, 1);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.isa-hero-text h1 {
+    color: #731459;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.isa-hero .isa-hero-text h2 {
+    display: inline-block;
+    margin: 0;
+    height: 35px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.isa-hero .isa-hero-text .typed-text {
+    display: none;
+}
+
+.isa-hero .isa-hero-text .typed-cursor {
+    font-size: 35px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.isa-hero .isa-hero-btn .btn {
+    margin-top: 35px;
+    color: #731459;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 50px #ffffff;
+}
+
+.isa-hero .isa-hero-btn .btn:hover {
+    color: #ffffff;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
+}
+
+.isa-hero .isa-hero-btn .btn:first-child {
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+
+    .isa-hero-text p {
+        color: rgba(15, 15, 15, 1);
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    .isa-hero-text h1 {
+        display: none;
+    }
+}
+
+
+/*******************************/
+/********* isa Footer CSS **********/
+/*******************************/
+.isa-footer {
+    position: relative;
+    margin-top: 45px;
+    background: #731459;
+}
+
+.isa-footer .container-fluid {
+    padding: 60px 0 0 0;
+}
+
+.isa-footer .isa-footer-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.isa-footer .isa-footer-info h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.isa-footer .isa-footer-info h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.isa-footer .isa-footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.isa-footer .isa-footer-menu p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 15px;
+    border-right: 1px solid #ffffff;
+}
+
+.isa-footer .isa-footer-menu p:last-child {
+    border: none;
+}
+
+.isa-footer .isa-footer-social {
+    position: relative;
+    margin-top: 15px;
+}
+
+.isa-footer .isa-footer-social a {
+    display: inline-block;
+}
+
+.isa-footer .isa-footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.isa-footer .isa-footer-social a:last-child i {
+    margin: 0;
+}
+
+.isa-footer .isa-footer-social a:hover i {
+    color: #414141;
+}
+
+.isa-footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.isa-footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(256, 256, 256, 0.2);
+}
+
+.isa-footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.isa-footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.isa-footer .copyright p a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.isa-footer .copyright p a:hover {
+    color: #414141;
+}
+
+@media (max-width: 575.98px) {
+    .isa-footer .isa-footer-info h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .isa-footer .isa-footer-info h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .isa-footer .isa-footer-menu p {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 5px;
+    }
+}
+
+.cvlink {
+    color: rgba(225, 237, 185, 1);
+}
+
+.cvlink:hover {
+    color: rgba(212, 238, 94, 1);
+    font-size: 25px;
+}
+
+
+
+/**********************************/
+/*********** isA Nav Bar CSS **********/
+/**********************************/
+
+.isa-navbar.nav-sticky {
+    padding: 10px 60px;
+    background: #731459 !important;
+}
+
+.isa-nav-link{
+    padding: 10px 10px 8px 10px;
+    color: rgba(255,255,255,1);
+    font-size: 25px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.5px #414141; /* width and color */
+
+}
+
+
+ .isa-nav-link:hover,
+ .isa-nav-link.active {
+    color: rgba(225, 237, 185, 1);
+
+    padding: 1px 10px 4px 10px;
+
+    font-size: 30px;
+
+    -webkit-text-stroke: 0.5px #414141; /* width and color */
 }

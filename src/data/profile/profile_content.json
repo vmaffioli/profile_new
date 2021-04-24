@@ -54,9 +54,9 @@
     "Portfolio": {
         "title001": "My Projects",
 
-        "title002": "Javascript Game",
-        "url002": "https://vmaffioli-pikachustrikesback.herokuapp.com/",
-        "img002": "img/pikachustrikesback.png",
+        "title002": "isA Chatbot Kit",
+        "url002": "/isa",
+        "img002": "img/portfolio-isa.png",
 
         "title003": "title003",
         "url003": "text003",

@@ -8,6 +8,12 @@ router.get(`/api/internal/data/profile`, (req, res, next) => {
     );
 });
 
+router.get(`/api/internal/data/isa`, (req, res, next) => {
+    res.status(200).send(
+        require('../data/isa/isa_content.json')
+    );
+});
+
 
 
 

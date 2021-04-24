@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import App from './pages/Home/App';
+import App from './pages/Profile/App';
+import Isa from './pages/Isa';
 import Helmet from "./components/HelmetContainer";
 
 import reportWebVitals from './reportWebVitals';
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Switch>
 
         <Route path="/" component={App} exact />
+        <Route path="/isa" component={Isa}/>
 
       </Switch>
       <Helmet />
