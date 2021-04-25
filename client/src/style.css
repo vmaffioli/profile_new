@@ -872,7 +872,6 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
-    min-height: 600px;
 }
 
 .portfolio #portfolio-filter {
@@ -916,6 +915,8 @@ a:focus {
 .portfolio .portfolio-wrap {
     position: relative;
     width: 100%;
+    min-height: 300px;
+
 }
 
 .portfolio .portfolio-img {
@@ -1918,7 +1919,7 @@ a:focus {
 
 .isa-nav-link{
     padding: 10px 10px 8px 10px;
-    color: rgba(255,255,255,1);
+    color: rgba(25,25,25,1);
     font-size: 25px;
     font-weight: 500;
     -webkit-text-stroke: 0.5px #414141; /* width and color */
@@ -1927,12 +1928,9 @@ a:focus {
 
 
  .isa-nav-link:hover,
- .isa-nav-link.active {
+ .isa-nav-link:active  {
     color: rgba(225, 237, 185, 1);
-
     padding: 1px 10px 4px 10px;
-
     font-size: 30px;
-
     -webkit-text-stroke: 0.5px #414141; /* width and color */
 }

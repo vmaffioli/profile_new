@@ -1,4 +1,4 @@
-
+import MyCV from '../../misc/ViniciusMaffioliCurriculo.pdf';
 
 export default function Footer(props) {
 
@@ -9,7 +9,7 @@ export default function Footer(props) {
                     <div className="container">
                         <div className="footer-info">
                             <h2>{props.data.text001}</h2>
-                            <h3><a href={props.data.cv} className="cvlink" download> {props.data.text002}</a></h3>
+                            <h3><a href={MyCV} className="cvlink" download> {props.data.text002}</a></h3>
                             <div className="footer-menu">
                                 <p>{props.data.text003}<br /><br />
                                     {props.data.text004}</p>
@@ -41,7 +41,7 @@ export default function Footer(props) {
                     <div className="container">
                         <div className="isa-footer-info">
                             <h2>{props.data.text001}</h2>
-                            <h3><a href={props.data.cv} className="cvlink" download> {props.data.text002}</a></h3>
+                            <h3><a href={MyCV} className="cvlink" download> {props.data.text002}</a></h3>
                             <div className="isa-footer-menu">
                                 <p>{props.data.text003}<br /><br />
                                     {props.data.text004}</p>

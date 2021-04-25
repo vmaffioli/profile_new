@@ -15,7 +15,7 @@ export default function Experience(props) {
                         <div className="timeline-text">
                             <div className="timeline-date">{props.data.text010}</div>
                             <h2>{props.data.title004}</h2>
-                            <h4>{props.data.text000}</h4>
+                            <h4>{props.data.text008}</h4>
                             <p>
                                 {props.data.text009}
                             </p>

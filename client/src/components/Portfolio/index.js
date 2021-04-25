@@ -11,18 +11,18 @@ export default function Portfolio(props) {
                         <p>{props.data.text001}</p>
                         <h2>{props.data.title001}</h2>
                     </div>
-                    <div className="row">
+                    {/*<div className="row">
                         <div className="col-12">
-                            {/*<ul id="portfolio-filter">
+                            <ul id="portfolio-filter">
                                 <li data-filter="*" className="filter-active">{props.data.text002}</li>
                                 <li data-filter=".filter-1">{props.data.text003}</li>
                                 <li data-filter=".filter-2">{props.data.text004}</li>
                                 <li data-filter=".filter-3">{props.data.text005}</li>
-                        </ul>*/}
+                        </ul>
                         </div>
-                    </div>
+                    </div>*/}
                     <div className="row portfolio-container">
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
                                     <img src={props.data.img002} alt="Image" />
@@ -35,7 +35,7 @@ export default function Portfolio(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
                                     <img src="img/portfolio-2.jpg" alt="Image" />
@@ -46,7 +46,7 @@ export default function Portfolio(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
                                     <img src="img/portfolio-3.jpg" alt="Image" />
@@ -57,9 +57,6 @@ export default function Portfolio(props) {
                                 </div>
                             </div>
                         </div>
-
-     
-
                     </div>
                 </div>
             </div>
