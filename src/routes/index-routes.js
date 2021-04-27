@@ -17,9 +17,10 @@ router.get(`/api/internal/data/isa`, (req, res, next) => {
 
 
 
-router.get('/',function(req,res){
-    res.sendFile(path.join(__dirname+'../../../client/build/index.html'));
-  });
+
+
+
+
 
 
 

@@ -8,6 +8,8 @@ export default function Portfolio(props) {
             <div className="portfolio" id="portfolio">
                 <div className="container">
                     <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                        <br /><br />
+
                         <p>{props.data.text001}</p>
                         <h2>{props.data.title001}</h2>
                     </div>
@@ -29,7 +31,7 @@ export default function Portfolio(props) {
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title002}</h3>
-                                    <Link to='/isa#isa-home' className='btn'>
+                                    <Link to={props.data.url002} className='btn'>
                                         +
                                     </Link>
                                 </div>
@@ -38,23 +40,26 @@ export default function Portfolio(props) {
                         <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
-                                    <img src="img/portfolio-2.jpg" alt="Image" />
+                                    <img src={props.data.img003} alt="Image" />
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title003}</h3>
-                                    <a className="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                                    <a href={props.data.url003} className='btn'>
+                                        +
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
-                                    <img src="img/portfolio-3.jpg" alt="Image" />
+                                    <img src={props.data.img004} alt="Image" />
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title004}</h3>
-                                    <a className="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
-                                </div>
+                                    <a href={props.data.url004} className='btn'>
+                                        +
+                                    </a>                                </div>
                             </div>
                         </div>
                     </div>

@@ -3,10 +3,12 @@
 export default function Experience(props) {
 
     return (
-        
+
         <div className="experience" id="experience">
             <div className="container">
                 <header className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <br /><br /><br />
+
                     <p>{props.data.text001}</p>
                     <h2>{props.data.title001}</h2>
                 </header>

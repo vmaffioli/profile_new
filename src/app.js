@@ -12,5 +12,8 @@ app.use('/', indexRoutes);
 //profile .
 app.use('/',express.static(path.join(__dirname, '../client/build/')));
 
+// pikachu game
+app.use('/pikachustrikesback',express.static(path.join(__dirname, '../pikachustrikesback/')));
+
 
 module.exports = app;

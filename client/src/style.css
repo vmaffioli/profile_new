@@ -917,12 +917,18 @@ a:focus {
     width: 100%;
     min-height: 300px;
 
+
 }
 
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
 
+}
+
+.portfolio .portfolio-img img {
+    max-height: 260px;
+    min-height: 260px;
 
 }
 

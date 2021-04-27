@@ -32,10 +32,9 @@
     "About": {
         "text001": "Sobre",
         "title001": "Quem sou eu",
-        "text002": "Possuo 27 anos, marido dessa Mulher incrível na foto e pai de uma linda Princesa!",
-        "text003": "Moro em São Paulo / BR e sou uma pessoa muito caseira, geralmente passo a maior parte do tempo com minha família e estudando.",
+        "text002": "Possuo 28 anos, sou casado e possuo uma filha. Moro em São Paulo / BR e sou uma pessoa caseira, geralmente passo a maior parte do tempo com minha família e estudando.",
+        "text003": "Estudante de Análise e Desenvolvimento de Sistemas, possuo expêriencia com JAVA e Javascript e conhecimento com frameworks Spring, Node e React além de mySQL, MongoDB e Firebase",
         "text004": "Curiosidade, determinação e adaptabilidade são minhas principais características. Desenvolver sistemas é mais do que um trabalho para mim, é meu hobbie e por isso estou constantemente em busca de novos conhecimentos e experiências.",
-        "text005": "Não abro mão de uma nova descoberta, desafio ou de inovação. Enquanto eu tiver a capacidade de aprender, quem poderá me limitar? ",
         "img001": "img/about-photo.jpg"
     },
     "Services": {
@@ -52,18 +51,20 @@
     
     },
     "Portfolio": {
-        "title001": "Meu Projetos",
+        "title001": "Minhas Aplicações",
 
         "title002": "isA Chatbot Kit",
-        "url002": "/#/isa",
+        "url002": "/isa#isa-home",
         "img002": "img/portfolio-isa.png",
 
-        "title003": "em breve ..",
-        "url003": "text003",
-        "img003": "img/pikachustrikesback.png",
+        "title003": "CARNN",
+        "url003": "https://www.npmjs.com/package/carnn",
+        "img003": "img/npm.png",
 
-        "title004": "em breve ..",
-        "title005": "title005",
+        "title004": "Pikachu Strikes Back",
+        "url004": "https://vmaffioli.website/pikachustrikesback",
+        "img004": "img/pikachustrikesback.png",
+
         "title006": "title006",
         "title007": "title007",
         "text001": "Portfolio",
@@ -74,7 +75,6 @@
         "text003": "text003",
         "text004": "text004",
         "text005": "text005",
-        "url004": "text004",
         "url005": "text005"
 
     },

@@ -6,15 +6,11 @@ export default function About(props) {
             <div className="about wow fadeInUp" data-wow-delay="0.1s" id="about">
                 <div className="container-fluid">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <div className="about-img">
-                                <img src={props.data.img001} alt="Image" />
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                             <div className="about-content">
-                                <div className="section-header text-left">
-                                    <br />
+                                <div className="section-header text-center">
+                                    <br /><br /><br />
+
                                     <p>{props.data.text001}</p>
                                     <h2>{props.data.title001}</h2>
                                 </div>
