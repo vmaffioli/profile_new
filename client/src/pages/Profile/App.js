@@ -58,7 +58,6 @@ class App extends Component {
         return (
             <>
 
-                <HelmetContainer />
 
                 <Header src={'profile'} data={this.state.header} />
 
@@ -66,7 +65,7 @@ class App extends Component {
                 <Banner src={'profile'} data={this.state.banner} />
                 <About data={this.state.about} />
                 {/*<Services data={Data.Services}/>*/}
-                <Portfolio data={this.state.portfolio} />
+                {/*<Portfolio data={this.state.portfolio} />*/}
 
                 <Experience data={this.state.experience} />
 
