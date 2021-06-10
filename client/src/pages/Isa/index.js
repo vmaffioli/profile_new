@@ -4,7 +4,6 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner"
 import Footer from "../../components/Footer";
 import Loader from "../../components/Loader";
-import HelmetContainer from "../../components/HelmetContainer";
 
 
 
@@ -41,7 +40,6 @@ class Isa extends Component {
         return (
 
             <>
-                <HelmetContainer />
                 <Header src={'isa'} data={this.state.header} />
                 <Banner src={'isa'} data={this.state.banner} />
                 <Footer src={'isa'} data={this.state.footer} />

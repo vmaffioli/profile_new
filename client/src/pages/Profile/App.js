@@ -9,7 +9,6 @@ import Portfolio from "../../components/Portfolio";
 //import Blog from "../../components/Blog";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import HelmetContainer from "../../components/HelmetContainer";
 import Loader from "../../components/Loader";
 
 
