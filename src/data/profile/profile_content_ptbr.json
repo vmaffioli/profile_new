@@ -62,8 +62,12 @@
         "img003": "img/npm.png",
 
         "title004": "Pikachu Strikes Back",
-        "url004": "https://vmaffioli.website/pikachustrikesback",
+        "url004": "https://vmaffioli-pikachustrikesback.herokuapp.com/",
         "img004": "img/pikachustrikesback.png",
+
+        "title005": "Answer.me chatbot",
+        "url005": "https://www.npmjs.com/package/jschatbot-answer-me",
+        "img005": "img/npm.png",
 
         "title006": "title006",
         "title007": "title007",
@@ -74,8 +78,7 @@
         "text002": "text002",
         "text003": "text003",
         "text004": "text004",
-        "text005": "text005",
-        "url005": "text005"
+        "text005": "text005"
 
     },
     "Experience": {
@@ -104,7 +107,7 @@
         "text001": "Vinícius Maffioli",
         "text002": "Download Currículo",
         "text003": "+55 11 94633 0089",
-        "text004": "vinimaffioli@gmail.com",
+        "text004": "vmaffioli@outlook.com",
         "text005": "",
         "text006": "Personal website with no intention to save, get or distribute anything else than my curriculum and professional data.",
 

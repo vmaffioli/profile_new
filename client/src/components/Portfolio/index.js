@@ -24,23 +24,24 @@ export default function Portfolio(props) {
                         </div>
                     </div>*/}
                     <div className="row portfolio-container">
-                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
+                    <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
-                                    <img src={props.data.img002} alt="Image" />
+                                    <img src={props.data.img005} alt="answer" />
                                 </div>
                                 <div className="portfolio-text">
-                                    <h3>{props.data.title002}</h3>
-                                    <Link to={props.data.url002} className='btn'>
+                                    <h3>{props.data.title005}</h3>
+                                    <a href={props.data.url005} className='btn'>
                                         +
-                                    </Link>
-                                </div>
+                                    </a>                                </div>
                             </div>
                         </div>
+
+
                         <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
-                                    <img src={props.data.img003} alt="Image" />
+                                    <img src={props.data.img003} alt="carnn" />
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title003}</h3>
@@ -53,13 +54,28 @@ export default function Portfolio(props) {
                         <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
                             <div className="portfolio-wrap">
                                 <div className="portfolio-img">
-                                    <img src={props.data.img004} alt="Image" />
+                                    <img src={props.data.img004} alt="pikachu" />
                                 </div>
                                 <div className="portfolio-text">
                                     <h3>{props.data.title004}</h3>
                                     <a href={props.data.url004} className='btn'>
                                         +
                                     </a>                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item" >
+                            <div className="portfolio-wrap">
+                                <div className="portfolio-img">
+                                    <img src={props.data.img002} alt="isa" />
+                                </div>
+                                <div className="portfolio-text">
+                                    <h3>{props.data.title002}</h3>
+                                    <Link to={props.data.url002} className='btn'>
+                                        +
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

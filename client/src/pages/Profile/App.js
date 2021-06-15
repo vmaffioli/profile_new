@@ -9,6 +9,7 @@ import Portfolio from "../../components/Portfolio";
 //import Blog from "../../components/Blog";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import HelmetContainer from "../../components/HelmetContainer";
 import Loader from "../../components/Loader";
 
 
@@ -57,6 +58,7 @@ class App extends Component {
         return (
             <>
 
+                <HelmetContainer />
 
                 <Header src={'profile'} data={this.state.header} />
 
@@ -64,7 +66,7 @@ class App extends Component {
                 <Banner src={'profile'} data={this.state.banner} />
                 <About data={this.state.about} />
                 {/*<Services data={Data.Services}/>*/}
-                {/*<Portfolio data={this.state.portfolio} />*/}
+                <Portfolio data={this.state.portfolio} />
 
                 <Experience data={this.state.experience} />
 
