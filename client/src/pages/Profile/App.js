@@ -65,8 +65,8 @@ class App extends Component {
 
                 <Banner src={'profile'} data={this.state.banner} />
                 <About data={this.state.about} />
-                {/*<Services data={Data.Services}/>*/}
-                <Portfolio data={this.state.portfolio} />
+                {/*<Services data={Data.Services}/>
+                <Portfolio data={this.state.portfolio} />*/}
 
                 <Experience data={this.state.experience} />
 
